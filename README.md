@@ -230,7 +230,6 @@ For more information on PR's steps, please see links in the Contributing section
 
 
 ## 💬 Contributing
-* [Code of Conduct](https://github.com/nhn/tui.color-picker/blob/production/CODE_OF_CONDUCT.md)
 * [Contributing guideline](https://github.com/nhn/tui.color-picker/blob/production/CONTRIBUTING.md)
 * [Issue guideline](https://github.com/nhn/tui.color-picker/blob/production/docs/ISSUE_TEMPLATE.md)
 * [Commit convention](https://github.com/nhn/tui.color-picker/blob/production/docs/COMMIT_MESSAGE_CONVENTION.md)
