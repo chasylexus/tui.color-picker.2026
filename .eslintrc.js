@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['tui', 'plugin:prettier/recommended'],
+  extends: ['./.eslintrc-base', 'plugin:prettier/recommended'],
   env: {
     browser: true,
     amd: true,
