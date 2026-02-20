@@ -34,7 +34,7 @@ function getOptimization(isMinified) {
 module.exports = function(env, argv) {
   var isProduction = argv.mode === 'production';
   var isMinified = !!argv.minify;
-  var FILENAME = pkg.name + (isMinified ? '.min' : '');
+  var FILENAME = 'tui-color-picker' + (isMinified ? '.min' : '');
   var BANNER = [
     'TOAST UI Color Picker',
     '@version ' + pkg.version,
@@ -44,7 +44,7 @@ module.exports = function(env, argv) {
 
   return {
     mode: isProduction ? 'production' : 'development',
-    entry: ['./src/styl/' + pkg.name + '.styl', './src/js/index.js'],
+    entry: ['./src/styl/tui-color-picker.styl', './src/js/index.js'],
     output: {
       library: ['tui', 'colorPicker'],
       libraryTarget: 'umd',

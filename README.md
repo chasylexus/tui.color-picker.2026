@@ -2,7 +2,7 @@
 > Component that selects a specific color and gets a color code.
 
 [![GitHub release](https://img.shields.io/github/release/nhn/tui.color-picker.svg)](https://github.com/nhn/tui.color-picker/releases/latest)
-[![npm](https://img.shields.io/npm/v/tui-color-picker.svg)](https://www.npmjs.com/package/tui-color-picker)
+[![npm](https://img.shields.io/npm/v/@techie_doubts/tui.color-picker.2026.svg)](https://www.npmjs.com/package/@techie_doubts/tui.color-picker.2026)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.project-name/labels/help%20wanted)
 [![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
 
@@ -90,15 +90,15 @@ When using npm, be sure to use it in the environment [Node.js](https://nodejs.or
 #### npm
 
 ``` sh
-$ npm install --save tui-color-picker # Latest version
-$ npm install --save tui-color-picker@<version> # Specific version
+$ npm install --save @techie_doubts/tui.color-picker.2026 # Latest version
+$ npm install --save @techie_doubts/tui.color-picker.2026@<version> # Specific version
 ```
 
 #### bower
 
 ``` sh
-$ bower install tui-color-picker # Latest version
-$ bower install tui-color-picker#<tag> # Specific version
+$ bower install @techie_doubts/tui.color-picker.2026 # Latest version
+$ bower install @techie_doubts/tui.color-picker.2026#<tag> # Specific version
 ```
 
 ### Via Contents Delivery Network (CDN)
@@ -153,11 +153,11 @@ const colorPicker = tui.colorPicker;
 
 #### Using module format in node environment
 ``` javascript
-const colorPicker = require('tui-color-picker'); /* CommonJS */
+const colorPicker = require('@techie_doubts/tui.color-picker.2026'); /* CommonJS */
 ```
 
 ``` javascript
-import colorPicker from 'tui-color-picker'; /* ES6 */
+import colorPicker from '@techie_doubts/tui.color-picker.2026'; /* ES6 */
 ```
 
 

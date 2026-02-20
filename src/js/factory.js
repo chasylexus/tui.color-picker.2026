@@ -35,10 +35,10 @@ function generateId() {
  *  @param {boolean} [options.usageStatistics=true] - Let us know the hostname. If you don't want to send the hostname, please set to false.
  * @example
  * // ES6
- * import colorPicker from 'tui-color-picker';
+ * import colorPicker from '@techie_doubts/tui.color-picker.2026';
  *
  * // CommonJS
- * const colorPicker = require('tui-color-picker');
+ * const colorPicker = require('@techie_doubts/tui.color-picker.2026');
  *
  * // Browser
  * const colorPicker = tui.colorPicker;

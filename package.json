@@ -1,6 +1,9 @@
 {
-  "name": "tui-color-picker",
+  "name": "@techie_doubts/tui.color-picker.2026",
   "version": "2.2.8",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/tui-color-picker.js",
   "files": [
     "dist"
@@ -31,7 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "@toast-ui/release-notes": "^2.0.1",
+    "@techie_doubts/tui.release-notes.2026": "file:../tui.release-notes.2026",
     "babel-eslint": "^7.1.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^0.28.7",

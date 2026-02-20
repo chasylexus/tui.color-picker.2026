@@ -1,8 +1,8 @@
 ## Install
 
 ``` sh
-$ npm install --save tui-color-picker # Latest version
-$ npm install --save tui-color-picker@<version> # Specific version
+$ npm install --save @techie_doubts/tui.color-picker.2026 # Latest version
+$ npm install --save @techie_doubts/tui.color-picker.2026@<version> # Specific version
 ```
 
 It can also be installed by using bower or downloaded by CDN. Please refer to the [💾 Install](https://github.com/nhn/tui.color-picker#-install).
@@ -10,8 +10,8 @@ It can also be installed by using bower or downloaded by CDN. Please refer to th
 ## Usage
 
 ```javascript
-import colorPicker from 'tui-color-picker';
-import 'tui-color-picker/dist/tui-color-picker.css';
+import colorPicker from '@techie_doubts/tui.color-picker.2026';
+import '@techie_doubts/tui.color-picker.2026/dist/tui-color-picker.css';
 
 const colorpicker = colorPicker.create({
   container: document.getElementById('color-picker-container'),
